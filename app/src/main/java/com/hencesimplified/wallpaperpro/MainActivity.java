@@ -134,6 +134,7 @@ public class MainActivity extends AppCompatActivity {
         {
             getSupportFragmentManager()
                     .beginTransaction()
+                    .setCustomAnimations(R.anim.right_enter, R.anim.left_out)
                     .replace(R.id.fg_container,fragment)
                     .commit();
             return true;

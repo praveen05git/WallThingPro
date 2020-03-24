@@ -197,6 +197,7 @@ public class photo_view extends AppCompatActivity {
     public void onBackPressed()
     {
         finish();
+        overridePendingTransition(R.anim.right_enter,R.anim.left_out);
     }
 
 }
