@@ -1,4 +1,4 @@
 package com.hencesimplified.wallpaperpro;
 
-public class PublicJava {
+public class PrivateJava {
 }

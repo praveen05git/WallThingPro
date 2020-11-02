@@ -25,7 +25,7 @@ import androidx.fragment.app.Fragment;
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView navView;
-    FloatingActionButton infoFab;
+    FloatingActionButton informationFab;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         navView = findViewById(R.id.nav_view);
-        infoFab = findViewById(R.id.floatingActionButton);
+        informationFab = findViewById(R.id.floatingActionButton);
 
         SharedPreferences preferences = getApplicationContext().getSharedPreferences("ProPref", 0);
         int page = preferences.getInt("ProPage", -1);
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
-        infoFab.setOnClickListener(new View.OnClickListener() {
+        informationFab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent page_intent = new Intent(MainActivity.this, InformationActivity.class);
