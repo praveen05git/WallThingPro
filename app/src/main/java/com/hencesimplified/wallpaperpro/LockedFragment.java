@@ -33,7 +33,7 @@ public class LockedFragment extends Fragment {
     private RecyclerView myRecyclerView;
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
-    private RecyclerViewAdapter myAdapterRev;
+    private RecyclerViewAdapter myAdapter;
 
 
     public LockedFragment() {
@@ -53,7 +53,7 @@ public class LockedFragment extends Fragment {
         myRecyclerView = root.findViewById(R.id.locked_rec_id);
         myRecyclerView.setHasFixedSize(true);
         myRecyclerView.setLayoutManager(new GridLayoutManager(getContext(), 3));
-        myAdapterRev = new RecyclerViewAdapter(getContext(), listPhotos);
+        myAdapter = new RecyclerViewAdapter(getContext(), listPhotos);
 
         SharedPreferences pref = getContext().getSharedPreferences("ProPref", 0); // 0 - for private mode
         SharedPreferences.Editor editor = pref.edit();
@@ -72,7 +72,7 @@ public class LockedFragment extends Fragment {
                     listPhotos.add(photos);
                 }
 
-                myRecyclerView.setAdapter(myAdapterRev);
+                myRecyclerView.setAdapter(myAdapter);
 
             }
 
