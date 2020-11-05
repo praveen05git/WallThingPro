@@ -15,4 +15,4 @@
   * Exclusive wallpapers are updated during special occasions or trends
 
 Download Wall Thing Pro:
-https://play.google.com/store/apps/details?id=com.hencesimplified.wallapaper
+https://play.google.com/store/apps/details?id=com.hencesimplified.wallpaperpro
