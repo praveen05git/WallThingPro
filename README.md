@@ -44,7 +44,7 @@
 </br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/praveen05git/WallThing/master/screenshots/wallthing3.png"/>
+  <img src="https://raw.githubusercontent.com/praveen05git/WallThing/master/screenshots/wallthing3.png" width="30%" />
   <img src="https://raw.githubusercontent.com/praveen05git/WallThing/master/screenshots/wallthing4.png"/>
 </p>
 
