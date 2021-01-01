@@ -8,8 +8,8 @@
 </br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/praveen05git/WallThing/master/screenshots/wallthing1.png"/>
-  <img src="https://raw.githubusercontent.com/praveen05git/WallThing/master/screenshots/wallthing2.png"/>
+  <img src="https://raw.githubusercontent.com/praveen05git/WallThing/master/screenshots/wallthing1.png" width="30%"/>
+  <img src="https://raw.githubusercontent.com/praveen05git/WallThing/master/screenshots/wallthing2.png" width="21%"/>
 </p>
 
 ## Features
